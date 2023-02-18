@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    background-image: url(/img/grid-on-gray.png);
+}
+.container {
+    padding-top: 250px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.numerator {
+    max-width: 50px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+.denominator {
+    max-width: 50px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.line {
+    background-color: rgb(238, 212, 212);
+    height: 2px;
+    width: 80px;
+    margin-bottom: 2px;
+}
+.box {    
+    display: flex;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.item {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100%;
+    border: solid black 1px;
+}
+.red {
+    background-color: red;
+}
+.btn {
+    display: block;
+    margin-left: 20px;
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(16, 219, 16);
+}
+.inputs {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
